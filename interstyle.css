@@ -1,0 +1,408 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,
+strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,
+legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,
+ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ----------- 리셋 코드 ----------- */
+
+
+body {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#header1 {
+    display: flex;
+}
+
+#header1>h1 {
+    width: 200px;
+    height: 56px;
+    background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA4MThfMzQg%2FMDAxNjkyMzQwNDg5MDYx.munpBEBMtwQsEkVTt2obXGHKTb1Eet88IV5FnYuP6e0g.GsO4mUssEvhenbXfadZPQ5Ph643eRUwNpdJbI6shMrwg.JPEG.inpi1300%2Finterpark.jpg&type=sc960_832);
+    background-size: cover;
+}
+
+#header1>input {
+    width: 454px;
+    height: 50px;
+    border-radius: 32px;
+    border: 1px solid #afaaaa;
+}
+
+#header2 {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+}
+
+nav > ul {
+    display: flex;
+    gap: 24px;
+}
+
+nav>ul>li:nth-child(6) {
+    padding: 0px 24px 0px 0px;
+    border-right: 1px solid #afaaaa;
+}
+
+nav>ul {
+    padding: 32px 0px 32px 0px;
+    border-bottom: 1px solid #afaaaa;
+}
+
+
+/*-----main benner----*/
+
+#mainbenner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+#main-benner1 {
+    width: 568px;
+    height: 345px;
+    border-radius: 16px;
+    background-image: url(https://openimage.interpark.com/dia/images/59/23/230921023/6294dbd9ee0340b787da4e1caabb76ed.jpg);
+    background-size: cover;
+}
+
+#main-benner2 {
+    width: 568px;
+    height: 345px;
+    border-radius: 16px;
+    background-image: url(https://openimage.interpark.com/dia/images/31/13/231005013/2702bff301fa41f7967fb3b8aa4e76c5.png);
+    background-size: cover;
+}
+
+/* 배너 동그라미 만들기
+main > div > div{
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background-color: aqua;
+}
+*/
+
+/* -----section1 ------*/
+
+.section1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section1>h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.section1>p {
+    color: #afaaaa;
+}
+
+.cate1 {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.section1-cate1 {
+    min-width: 60px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    height: 44px;
+    border-radius: 32px;
+    border: 1px solid #d3d0d0;
+    background-color: white;
+
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    line-height: 44px;
+
+    cursor: pointer;
+}
+
+#item1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.section1-item1 {
+    width: 280px;
+    height: 406px;
+    border-radius: 16px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #d3d0d0;
+}
+
+#section1-item1-1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px 16px 0px 0px;
+    border-color: #353535;
+    background-image: url(https://qi-o.qoo10cdn.com/goods_image_big/8/8/5/3/12845398853_l.jpg);
+    background-size: cover;
+}
+
+#section1-item1-2 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px 16px 0px 0px;
+
+    background-image: url(https://qi-o.qoo10cdn.com/goods_image_big/3/9/5/7/13083743957_l.jpg);
+    background-size: cover;
+}
+
+#section1-item1-3 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px 16px 0px 0px;
+
+    background-image: url(https://qi-o.qoo10cdn.com/goods_image_big/8/8/1/6/12982458816_l.jpg);
+    background-size: cover;
+}
+
+#section1-item1-4 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px 16px 0px 0px;
+
+    background-image: url(https://qi-o.qoo10cdn.com/goods_image_big/0/6/4/3/9288140643_l.jpg);
+    background-size: cover;
+}
+
+.item1-price1 {
+    display: flex;
+
+    padding: 16px 16px 8px 16px;
+    box-sizing: border-box;
+
+    text-align: left;
+
+
+
+}
+
+.item1-price1>p:first-child {
+    color: red;
+    font-weight: bold;
+
+}
+
+.section1-item1>div>p {
+    padding: 0px 16px 0px 16px;
+    box-sizing: border-box;
+
+    text-align: left;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+}
+
+.item1-price1>p:nth-child(2) {
+    font-weight: bold;
+
+
+}
+
+
+
+.section1-home {
+    width: 190px;
+    height: 56px;
+    border-radius: 32px;
+    border: 1px solid #d3d0d0;
+    background-color: white;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 56px;
+
+    margin: 16px auto 0 auto;
+
+
+}
+
+/* ----- 투어 특가 ----- */
+
+#item2 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 16px;
+}
+
+.section2-item1 {
+    width: 370px;
+    height: 344px;
+    border-radius: 16px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #d3d0d0;
+
+}
+
+
+#section2-item1-1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+
+    background-image: url(https://trimg.interpark.com/r/c570388/r/i/1/88/77/F03_GN0002152021_8877b5ba6c5da0f9412a9e4c35b1fc99.jpg?w=570&h=388);
+    background-size: cover;
+}
+
+#section2-item1-2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+
+    background-image: url(https://tourimage.interpark.com/product/tour/00161/A60/1000/A6013677_1_270.jpg);
+    background-size: cover;
+}
+
+#section2-item1-3 {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+
+    background-image: url(https://trimg.interpark.com/r/c570388/r/i/0/56/be/F03_GN0002151480_56be36d53037c62f5754da023daaa95f.jpg?w=570&h=388);
+    background-size: cover;
+}
+
+.section2-item1>div {
+    text-align: left;
+
+    padding: 16px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.section2-item1>div>p:first-child {
+    color: blue;
+}
+
+.section2-item1>div>p:last-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ----- 푸터 만들어라 -----*/
+
+footer{
+    text-align: center;
+    font-size: 12px;
+
+    margin-top: 64px;
+}
+
+footer>ul{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 0px 16px 0px;
+    border-bottom: 1px solid #afaaaa;
+    border-top: 1px solid #afaaaa;
+}
+
+footer > ul > li:not(:last-child){
+    border-right: 1px solid #afaaaa;
+    padding: 0px 24px 0px 16px;
+}
+
+footer > ul > li:last-child{
+    padding: 0px 16px 0px 16px;
+}
+
+footer > div{
+    margin-top: 16px;
+
+    display: flex;
+    gap: 16px;
+
+    text-align: left;
+
+}
+
+footer>div>h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
